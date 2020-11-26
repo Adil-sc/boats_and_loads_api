@@ -1,0 +1,13 @@
+FROM node:latest
+
+COPY . . 
+
+RUN yarn install
+
+ENV PORT=8000
+
+ENV GOOGLE_APPLICATION_CREDENTIALS='[INSERT GCP PROJECT JSON]'
+
+EXPOSE ${PORT}
+
+CMD node server.js
