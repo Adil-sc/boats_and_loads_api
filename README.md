@@ -42,23 +42,23 @@
 | id            | Int            | The id of the boat. Generated automatically |
 | weight        | Int            | Weight of load in lbs                       |
 | carrier       | Embeded Entity | The boat carrying this load                 |
-| content       | String         | content of the load                         |
+| content       | String         | Content of the load                         |
 | delivery      | String         | Delivery date of load                       |
 
 ## Supported Requests
 
 | Endpoints                            | Description                |
 | ------------------------------------ | -------------------------- |
-| POST /boats                          | create a new boat          |
-| GET /boats/:boat_id                  | view a specifc boat        |
-| GET /boats                           | view all boats (paginated) |
-| DELETE /boats/:boat_id               | delete a boat              |
-| POST /loads                          | create a load              |
-| GET /boats                           | view all loads (paginated) |
-| DELETE /loads/:load_id               | delete a load              |
-| PUT /boats/:boat_id/loads/:load_id   | assign load to a boat      |
-| DELETE /boats:boat_id/loads/:load_id | remove a load from a boat  |
-| GET /boats/:boat_id/loads            | view all loads for a boat  |
+| POST /boats                          | Create a new boat          |
+| GET /boats/:boat_id                  | View a specifc boat        |
+| GET /boats                           | View all boats (paginated) |
+| DELETE /boats/:boat_id               | Delete a boat              |
+| POST /loads                          | Create a load              |
+| GET /boats                           | View all loads (paginated) |
+| DELETE /loads/:load_id               | Delete a load              |
+| PUT /boats/:boat_id/loads/:load_id   | Assign load to a boat      |
+| DELETE /boats:boat_id/loads/:load_id | Remove a load from a boat  |
+| GET /boats/:boat_id/loads            | View all loads for a boat  |
 
 Note pagination is supported and 3 results are returned per page
 
