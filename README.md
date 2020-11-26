@@ -29,20 +29,18 @@
 
 | Property Name | Notes                                       |
 | ------------- | ------------------------------------------- |
-| id            | The id of the boat. Generated automatically |
-| name          | Name of the boat                            |
-| type          | Type of the boat. Ex Yacht                  |
-| length        | Length of the boat in feet                  |
-| loads         | An array of loads held by the boat          |
+| id (Int)      | The id of the boat. Generated automatically |
+| name (String) | Name of the boat                            |
+| type (String) | Type of the boat. Ex Yacht                  |
+| length(Int)   | Length of the boat in feet                  |
+| loads(Array)  | An array of loads held by the boat          |
 
-```
+**Load**
 
-Load
-Property Name Notes
-id The id of the load. Generated automatically
-by Google Datastore
-weight Int - Weight of load in lbs
-carrier Embedded Entity - The boat carrying this load
-content String - Describes the content of the load
-delivery String - Delivery date of load
-```
+| Property Name             | Notes                                       |
+| ------------------------- | ------------------------------------------- |
+| id (Int)                  | The id of the boat. Generated automatically |
+| weight (Int)              | Weight of load in lbs                       |
+| carrier (Embedded Entity) | The boat carrying this load                 |
+| content (String)          | content of the load                         |
+| delivery (String)         | Delivery date of load                       |
