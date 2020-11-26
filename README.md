@@ -47,18 +47,18 @@
 
 ## Requests Supported
 
-| Endpoint                            | Description                |
-| ----------------------------------- | -------------------------- |
-| POST/boats                          | create a new boat          |
-| GET/boats/:boat_id                  | view a specifc boat        |
-| GET/boats                           | view all boats (paginated) |
-| DELETE/boats/:boat_id               | delete a boat              |
-| POST/loads                          | create a load              |
-| GET/boats                           | view all loads (paginated) |
-| DELETE/loads/:load_id               | delete a load              |
-| PUT/boats/:boat_id/loads/:load_id   | assign load to a boat      |
-| DELETE/boats:boat_id/loads/:load_id | remove a load from a boat  |
-| GET/boats/:boat_id/loads            | view all loads for a boat  |
+| Endpoints                            | Description                |
+| ------------------------------------ | -------------------------- |
+| POST /boats                          | create a new boat          |
+| GET /boats/:boat_id                  | view a specifc boat        |
+| GET /boats                           | view all boats (paginated) |
+| DELETE /boats/:boat_id               | delete a boat              |
+| POST /loads                          | create a load              |
+| GET /boats                           | view all loads (paginated) |
+| DELETE /loads/:load_id               | delete a load              |
+| PUT /boats/:boat_id/loads/:load_id   | assign load to a boat      |
+| DELETE /boats:boat_id/loads/:load_id | remove a load from a boat  |
+| GET /boats/:boat_id/loads            | view all loads for a boat  |
 
 Note pagination is supported and 3 results are returned per page
 
