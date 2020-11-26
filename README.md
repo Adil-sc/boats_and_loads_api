@@ -5,7 +5,6 @@
 ```
 1. yarn install
 2. yarn start
-
 ```
 
 ### `Running Postman test suite`
@@ -19,6 +18,7 @@
 
 ```
 - Node
+- Google Cloud Platform
 ```
 
 # Project Overview
