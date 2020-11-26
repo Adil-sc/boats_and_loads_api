@@ -49,8 +49,6 @@
 
 ### Create a Boat
 
-### Create a Boat
-
     POST /boats
 
 **Request parameters**
