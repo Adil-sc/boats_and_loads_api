@@ -21,7 +21,7 @@
 - Node
 ```
 
-# `Project Overview`
+# Project Overview
 
 ```
 - Node
