@@ -45,11 +45,11 @@
 | content       | String         | content of the load                         |
 | delivery      | String         | Delivery date of load                       |
 
-### Example Calls and Responses
+## Example Calls and Responses
 
-## Create a Boat
+### Create a Boat
 
-## Create a Boat
+### Create a Boat
 
     POST /boats
 
