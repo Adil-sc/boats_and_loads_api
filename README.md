@@ -86,16 +86,55 @@
 **Response - Success**
 
     {
-    "id" : "5680529164730368" ,
-    "name" : "Odyssey" ,
-    "type" : "Yatch" ,
-    "length" : 99 ,
-    "loads" : [],
-    "self" : "http://localhost:8080/boats/5680529164730368"
+        "id" : "5680529164730368" ,
+        "name" : "Odyssey" ,
+        "type" : "Yatch" ,
+        "length" : 99 ,
+        "loads" : [],
+        "self" : "http://localhost:8080/boats/5680529164730368"
     }
 
 **Response - Failure**
 
     {
-    "Error" : "The request object is missing at least one of the required attributes"
+        "Error" : "The request object is missing at least one of the required attributes"
+    }
+
+### View a Boat
+
+    GET /boats/:boat_id
+
+**Request parameters**
+
+- boat_id
+
+**Request Body**
+
+- None
+
+**Request Body Format**
+
+- JSON
+
+**Response Statuses**
+|Outcome| Status Code |
+|--|--|
+|Success |201 |
+|Failure|404|
+
+**Response - Success**
+
+    {
+        "type" : "Yatch" ,
+        "name" : "Odyssey" ,
+        "length" : 99 ,
+        "loads" : [],
+        "id" : "5680529164730368" ,
+        "self" : "http://localhost:8080/boats/5680529164730368"
+    }
+
+**Response - Failure**
+
+    {
+        "Error" : "No boat with this boat_id exists"
     }
