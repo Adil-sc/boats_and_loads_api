@@ -45,7 +45,7 @@
 | content       | String         | content of the load                         |
 | delivery      | String         | Delivery date of load                       |
 
-## Requests Supported
+## Supported Requests
 
 | Endpoints                            | Description                |
 | ------------------------------------ | -------------------------- |
